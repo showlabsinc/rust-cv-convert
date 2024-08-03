@@ -12,6 +12,13 @@ default-features = true
 features = []
 optional = true
 
+[dependencies.image_0-25]
+version = '0.25'
+package = 'image'
+default-features = true
+features = []
+optional = true
+
 [dependencies.nalgebra_0-26]
 version = '0.26'
 package = 'nalgebra'
@@ -215,8 +222,8 @@ default-features = false
 features = ['calib3d']
 optional = true
 
-[dependencies.opencv_0-85]
-version = '0.85'
+[dependencies.opencv_0-92]
+version = '0.92'
 package = 'opencv'
 default-features = false
 features = ['calib3d']
@@ -224,6 +231,13 @@ optional = true
 
 [dependencies.ndarray_0-15]
 version = '0.15'
+package = 'ndarray'
+default-features = true
+features = []
+optional = true
+
+[dependencies.ndarray_0-16]
+version = '0.16'
 package = 'ndarray'
 default-features = true
 features = []
